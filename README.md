@@ -1,0 +1,2 @@
+# TypeRacer
+The TypeRacer App is a simple and effective tool for users to measure and improve their typing speed. It offers clear instructions so anyone can easily take a typing test, with passages tailored to different ability levels. The app works smoothly on all devices, making it convenient to practice anywhere. After each test, users receive accurate results, including their words per minute (WPM), helping them track progress and boost their typing skills over time.
