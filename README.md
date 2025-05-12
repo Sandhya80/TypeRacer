@@ -6,12 +6,16 @@ TypeRacer is a simple and effective web app designed to help users measure and i
 
 ## Features
 
-- Measure your typing speed with real-time feedback
-- Clear instructions for taking the test
-- Easy-to-use interface for quick test starts
-- Ability-level selection for relevant practice
-- Responsive design for desktop, tablet, and mobile
-- Accurate results including WPM and error count
+- Responsive design for desktop, tablet, and mobile devices
+- Clear instructions and easy-to-use interface
+- Start and stop the typing test with intuitive controls
+- Typing tests tailored to different ability levels (easy, medium, hard)
+- Randomly selected sample text for each test
+- Dedicated input area for typing
+- Real-time feedback on typing accuracy (correct words highlighted in blue, incorrect in red)
+- Accurate calculation and display of Words Per Minute (WPM) and error count
+- Retry button to quickly retake the test at the same difficulty
+- Display of best results for each difficulty level
 
 ---
 
@@ -22,6 +26,7 @@ TypeRacer is a simple and effective web app designed to help users measure and i
    ```bash
    git clone https://github.com/yourusername/typeracer-app.git
    cd typeracer-app
+   ```
 
 2. **Open `index.html` in your browser:**
 
@@ -46,12 +51,23 @@ TypeRacer is a simple and effective web app designed to help users measure and i
 
 ## User Stories
 
-- As a user, I want to measure my typing speed and see my WPM.
-- As a user, I want clear instructions on how to take the test.
-- As a user, I want to easily start a typing test.
-- As a user, I want to choose a test relevant to my ability level.
-- As a user, I want to use the app on any device.
-- As a user, I want to see accurate results after each test.
+### Must-Have
+
+- As a user, I want the website to adjust to any device I use, so I can take the typing test comfortably on my preferred screen size.
+- As a user, I want to easily start and stop the typing test, so I can control when my speed is measured.
+- As a user, I want to see a sample text to type, so I know exactly what to enter during the test.
+- As a user, I want a dedicated input area for typing, so I can enter the text accurately.
+- As a user, I want to see my typing speed in WPM after the test, so I can assess my performance.
+
+### Should-Have
+
+- As a user, I want a quick way to retry the test, so I can keep practicing at the same difficulty.
+- As a user, I want instant feedback on my typing accuracy, so I can correct mistakes as I type.
+- As a new user, I want clear instructions on how to use the typing test, so I know how to begin and finish.
+
+### Could-Have
+
+- As a user, I want to see my best scores for each difficulty, so I can track my improvement.
 
 ---
 
