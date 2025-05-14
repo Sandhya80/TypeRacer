@@ -1,217 +1,62 @@
+/* Import Google Fonts: Alegreya for headings, Nunito for body text */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family= Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+/* Base body font */
 body {
-    background: #f8fafc;
     font-family: Nunito, sans-serif;
 }
-/* Header */
 
+/* Heading font for main title */
+h1 {
+    font-family: Alegreya, serif;
+}
+
+/* Header styling: orange background and white text */
 header {
     background-color: #ff8400;
     color: white;
 }
 
-header h1 {
-    font-family: Alegreya, serif;
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-}
-header .lead {
-    font-size: 1.2rem;
-    font-weight: 400;
-     font-family: 'Nunito', Arial, sans-serif;
-}
-
-/* Card styles */
-.card {
-    border-radius: 1rem;
-    border: none;
-}
-
-.card-body {
-    padding: 2rem 1.5rem;
-}
-
-/* Bootstrap input-group for dropdown */
-.input-group.w-50 {
-    min-width: 220px;
-    max-width: 350px;
-}
-
-.input-group-text {
-    background: #ff8400;
-    color: #fff;
-    font-weight: 600;
-    border: none;
-    font-family: 'Nunito', Arial, sans-serif;
-}
-
-.form-select {
-    font-family: 'Nunito', Arial, sans-serif;
-    font-weight: 500;
-    border: 2px solid #ff8400;
-    border-left: none;
-}
-
-.form-select:focus {
-    border-color: #ff8400;
-    box-shadow: 0 0 0 0.1rem #ff840033;
-}
-
-/* Sample text area */
-#sampleText {
-    font-size: 1.15rem;
-    font-family: 'Fira Mono', 'Consolas', monospace;
-    color: #333;
-    background: #f5f7fa;
-    min-height: 60px;
-    transition: background 0.2s;
-}
-
-/* Typing input area */
-#typingInput {
-    font-size: 1.1rem;
-    font-family: 'Fira Mono', 'Consolas', monospace;
-    background: #fff;
-    border: 2px solid #b3d7ff;
-    border-radius: 0.5rem;
-    transition: border-color 0.2s;
-}
-
-#typingInput:focus {
-    border-color: #ff8400;
-    box-shadow: 0 0 0 0.1rem #ff840033;
-}
-
-/* Test control buttons */
-.d-flex.gap-2 > button {
-    min-width: 120px;
-    font-weight: 600;
-    font-family: 'Nunito', Arial, sans-serif;
-    transition: background 0.2s, color 0.2s;
-}
-
-.btn-success {
-    background-color: #198754;
-    border-color: #198754;
-}
-.btn-success:hover, .btn-success:focus {
-    background-color: #157347;
-    border-color: #146c43;
-}
-
-.btn-danger {
-    background-color: #dc3545;
-    border-color: #dc3545;
-}
-.btn-danger:hover, .btn-danger:focus {
-    background-color: #bb2d3b;
-    border-color: #b02a37;
-}
-
-.btn-primary {
-    background-color: #ff8400;
-    border-color: #ff8400;
-    color: #fff;
-}
-.btn-primary:hover, .btn-primary:focus {
-    background-color: #e67300;
-    border-color: #e67300;
-    color: #fff;
-}
-
-/* Results area */
-#results p {
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
-    font-family: 'Nunito', Arial, sans-serif;
-}
-
-#results span {
-    font-weight: 700;
-    color: #ff8400;
-    font-family: 'Nunito', Arial, sans-serif;
-}
-
-.card-title i {
-    color: #ff8400;
-    margin-right: 0.5rem;
-}
-
-/* Responsive tweaks */
-@media (max-width: 767.98px) {
-    .card-body {
-        padding: 1.2rem 0.8rem;
-    }
-    #sampleText {
-        font-size: 1rem;
-    }
-    #typingInput {
-        font-size: 1rem;
-    }
-    .input-group.w-50 {
-        width: 100% !important;
-        min-width: unset;
-        max-width: unset;
-    }
-}
-
-/* Highlighting for real-time feedback (to be used by JS) */
-.word-correct {
-    color: #198754;
-    background: #e6f9ed;
-    border-radius: 0.2em;
-    padding: 0 2px;
-}
-
-.word-incorrect {
-    color: #dc3545;
-    background: #fbeaea;
-    border-radius: 0.2em;
-    padding: 0 2px;
-}
-
-
-
-
-
-
-
-
-
-
-/* buttons */
-
-/* commented out for now
-
+/* 
+Button styles: 
+- Orange border for outline style
+- Smooth color transition on hover
+- Margin for spacing between buttons 
+*/
 .btn-outline-orange {
     border: 2px solid #ff8400;
     transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
     margin: 5px;
 }
 
+/* 
+Button hover effect: 
+- Orange background
+- White text 
+*/
 .btn-outline-orange:hover {
     background-color: #ff8400;
     color: #fff;
 }
 
-
-/* results-area */
-
-/* commented out for now
-
+/* 
+Results area styling:
+- Orange glow box-shadow for emphasis
+- Rounded corners
+- Padding for spacing inside the box
+*/
 #results-area {
     box-shadow: 0 0 10px #ff8400;
     border-radius: 10px;
     padding: 20px;
 }
 
+/* 
+Results text styling:
+- Slightly larger font for readability
+- Reduced bottom margin for compactness
+*/
 #results-area p {
     font-size: 1.1rem;
     margin-bottom: 5px;
 }
-
-#sampleText {    
-    min-height: 60px;
-}
-
