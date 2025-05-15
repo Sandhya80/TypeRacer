@@ -1,6 +1,22 @@
 # TypeRacer App
 
-TypeRacer is a simple and effective web app designed to help users measure and improve their typing speed. The app provides clear instructions, tests tailored to different ability levels, and accurate results including words per minute (WPM). TypeRacer works seamlessly across devices, making it easy to practice and track progress anywhere.
+---
+
+## Contents
+
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [How to Use](#how-to-use)
+- [User Stories](#user-stories)
+- [License](#license)
+
+---
+
+## Live Demo
+
+<!-- Replace the link below with your actual deployed app URL -->
+[Try TypeRacer Live](https://yourusername.github.io/typeracer-app/)
 
 ---
 
