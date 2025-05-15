@@ -1,27 +1,27 @@
 /* Import Google Fonts: Alegreya for headings, Nunito for body text */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family= Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-/* Base body font */
+/* Base font for the entire page */
 body {
     font-family: Nunito, sans-serif;
 }
 
-/* Heading font for main title */
+/* Main heading uses Alegreya font for emphasis */
 h1 {
     font-family: Alegreya, serif;
 }
 
-/* Header styling: orange background and white text */
+/* Header styling: orange background and white text for branding */
 header {
     background-color: #ff8400;
     color: white;
 }
 
 /* 
-Button styles: 
-- Orange border for outline style
+Button styles:
+- Orange border for outline
 - Smooth color transition on hover
-- Margin for spacing between buttons 
+- Margin for spacing between buttons
 */
 .btn-outline-orange {
     border: 2px solid #ff8400;
@@ -30,9 +30,9 @@ Button styles:
 }
 
 /* 
-Button hover effect: 
+Button hover effect:
 - Orange background
-- White text 
+- White text
 */
 .btn-outline-orange:hover {
     background-color: #ff8400;
@@ -42,8 +42,7 @@ Button hover effect:
 /* 
 Results area styling:
 - Orange glow box-shadow for emphasis
-- Rounded corners
-- Padding for spacing inside the box
+- Rounded corners and padding for better appearance
 */
 #results-area {
     box-shadow: 0 0 10px #ff8400;
@@ -59,4 +58,17 @@ Results text styling:
 #results-area p {
     font-size: 1.1rem;
     margin-bottom: 5px;
+}
+
+/* 
+Typing feedback:
+- Blue for correct input
+- Red for incorrect input
+*/
+.correct {
+    color: blue;
+}
+
+.incorrect {
+    color: red;
 }
